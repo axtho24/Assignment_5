@@ -1,0 +1,48 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #8E4B43;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: url("javascript-4col.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10em;
+}
+
+section {
+  width: 100%;
+  margin: 2%;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: inline;
+  margin: auto;
+  text-align: center;
+  font-size: 5em;
+  color: #8E4B43;
+}
+
+.content {
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.problems {
+  background: #F6B33C;
+  opacity: .5;
+}
+
+.problems:hover {
+  opacity: 1;
+  color: white;
+  transition: 3s;
+}
